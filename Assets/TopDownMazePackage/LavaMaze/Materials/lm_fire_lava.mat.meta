@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 02918c5a80ee6be40a93cf6edb52e839
+timeCreated: 1481197685
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Materials/lm_fire_lava.mat
+  uploadId: 167957

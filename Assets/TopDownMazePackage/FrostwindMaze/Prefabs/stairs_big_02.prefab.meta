@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 95d40f1e8f6bf44449388a2bb9369748
+timeCreated: 1472144327
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Prefabs/stairs_big_02.prefab
+  uploadId: 167957

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d050a144c1b55b549b031d42418f4543
+timeCreated: 1471969510
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Materials/maze_sky.mat
+  uploadId: 167957

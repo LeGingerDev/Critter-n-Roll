@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 84234d085f34d8849aee8765365cd13f
+timeCreated: 1472374753
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Controllers/portal_plane_01.controller
+  uploadId: 167957

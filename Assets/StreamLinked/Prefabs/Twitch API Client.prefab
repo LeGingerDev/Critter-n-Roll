@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1012864648421285509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1012864648421285507}
+  - component: {fileID: 1012864648421285506}
+  m_Layer: 0
+  m_Name: Twitch API Client
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1012864648421285507
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012864648421285509}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 151.26675, y: 475.47287, z: -918.38934}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1012864648421285506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012864648421285509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf18cf70d088b554c908c5b0346961e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LogDebugLevel: 2
+  _twitchClientID: 8hqa2ojxvy06vtef2dta4snu5gf8cr
+  _twitchSecret: owee0rdo4dkd621jb63gunta1mn9k3
+  UsePlayerPrefsFirst: 1
+  DefaultAPIToken: {fileID: 11400000, guid: acb7041f083285e4f81a6566ffb874be, type: 2}
+  OnAuthenticationRefreshStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAuthenticationSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAuthenticationFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  AuthWebserverActiveTime: 60000
+  persistBetweenScenes: 0

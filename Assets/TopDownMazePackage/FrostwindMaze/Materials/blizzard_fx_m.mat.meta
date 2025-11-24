@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 748fb39d2e188d942b5467640ddbeb83
+timeCreated: 1471971209
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Materials/blizzard_fx_m.mat
+  uploadId: 167957

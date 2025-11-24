@@ -1,0 +1,9 @@
+This package is using couple of Image Effects from Unity Standart Assets. 
+If you dont have them already, you can import them for free from Standart Packages and set on your camera by add component.
+
+- Global fog effect to rich great fog effect from downside
+- Bloom effect to make scene more contrast
+
+All the settings of effects is on the screenshot below.
+
+Thank you and have fun!

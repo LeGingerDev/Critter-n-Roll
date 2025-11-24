@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b74d64e144c492a40849d69b064810ad
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/UniGif/UniGifFormatter.cs
+  uploadId: 761168

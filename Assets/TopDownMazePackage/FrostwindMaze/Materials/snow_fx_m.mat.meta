@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 059a3fb902108134ba8d1dd941f51c29
+timeCreated: 1471807497
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Materials/snow_fx_m.mat
+  uploadId: 167957

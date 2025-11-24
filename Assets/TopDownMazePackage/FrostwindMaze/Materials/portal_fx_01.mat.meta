@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bc810b1a859601b4ba9b9e84a5f04728
+timeCreated: 1472374093
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Materials/portal_fx_01.mat
+  uploadId: 167957

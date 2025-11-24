@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1ea0f6892655cc841b813deb1caa783b
+timeCreated: 1472141351
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Prefabs/ice_column_01.prefab
+  uploadId: 167957

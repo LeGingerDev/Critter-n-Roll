@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cfb0a1f375fbc86409a9a1cf2a86867c
+timeCreated: 1472141172
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Prefabs/big_cliff_01.prefab
+  uploadId: 167957

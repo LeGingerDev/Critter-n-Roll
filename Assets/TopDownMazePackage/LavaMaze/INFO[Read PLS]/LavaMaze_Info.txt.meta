@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ef371a7a70ab19443a5774f6d9e3e13e
+timeCreated: 1483359591
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/INFO[Read PLS]/LavaMaze_Info.txt
+  uploadId: 167957

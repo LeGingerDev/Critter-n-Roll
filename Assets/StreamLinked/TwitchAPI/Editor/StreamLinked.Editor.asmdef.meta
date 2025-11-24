@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3d14538dce5a69945b556b55a1d2b7d4
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/TwitchAPI/Editor/StreamLinked.Editor.asmdef
+  uploadId: 761168

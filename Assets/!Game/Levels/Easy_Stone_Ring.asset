@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29fec70949e4ac54899e0fd68c0c0267, type: 3}
+  m_Name: Easy_Stone_Ring
+  m_EditorClassIdentifier: 
+  levelDifficulty: 0
+  levelName: Stone Ring
+  levelDescription: 
+  levelVisual: {fileID: 21300000, guid: bc59056db5d201b468d5a1ee84d3cb3d, type: 3}
+  baseLevelDuration: 90
+  levelPrefab: {fileID: 2949547622233824086, guid: f891f85b22d25864a8a337466f1b3c37, type: 3}
+  _levelPrefabPreview: {fileID: 203596593260769173, guid: f891f85b22d25864a8a337466f1b3c37, type: 3}
+  environment: {fileID: 11400000, guid: d42d875d7d40ea045a777c2dc8b7b913, type: 2}

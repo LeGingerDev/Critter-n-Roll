@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cb98ea6802bad3d43b75d9d470e7b0ab
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/TwitchEventSub/Events/Objects/Followers.cs
+  uploadId: 761168

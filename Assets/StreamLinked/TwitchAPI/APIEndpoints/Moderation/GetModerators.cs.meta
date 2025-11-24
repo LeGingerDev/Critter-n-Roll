@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 72780718fc6b53145840fe3e578d91f4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/TwitchAPI/APIEndpoints/Moderation/GetModerators.cs
+  uploadId: 761168

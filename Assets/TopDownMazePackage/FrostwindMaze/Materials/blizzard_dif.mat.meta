@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 86b315b8f19d9af4aab906d22aefd0bf
+timeCreated: 1471972549
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Materials/blizzard_dif.mat
+  uploadId: 167957

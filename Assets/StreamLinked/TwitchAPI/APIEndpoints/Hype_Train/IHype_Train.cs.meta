@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 20111fc0c10c0fc4e9d022201924055d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/TwitchAPI/APIEndpoints/Hype_Train/IHype_Train.cs
+  uploadId: 761168

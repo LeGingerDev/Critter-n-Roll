@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8cfe84c84bf4579498cbb312eda10bd9
+timeCreated: 1471975434
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/FX/blizzard_fx.prefab
+  uploadId: 167957

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4d31da3ac7157c94aae024dd6e608b01
+timeCreated: 1481623230
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Prefabs/small_rock_set_02.prefab
+  uploadId: 167957

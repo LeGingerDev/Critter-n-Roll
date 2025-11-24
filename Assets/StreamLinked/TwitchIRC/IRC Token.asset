@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aedf5257825541643bbb5b0d502047a7, type: 3}
+  m_Name: IRC Token
+  m_EditorClassIdentifier: 
+  authenticationType: 0
+  requestScopes:
+    _serializedAnswers: 2f0000003a0000003c0000003d0000003e000000
+  createLocalHostServer: 1
+  redirectURI: http://localhost:3000/
+  autoRetrieveNewAuth: 1
+  userProvidedWebResponse: '<b>Unity Application (StreamLinked) has received the
+    response from Twitch.
+
+    App will now continue.</b><br>(You can close this
+    window now)'
+  userProvidedJSCode: 
+  manualRetrieval: 0
+  pingInterval: 10000
+  pingRetries: 6
+  startNewOnRefreshFail: 1
+  tokenID: e3d6bba2-bdca-4676-9ce5-c1a91c041c2c

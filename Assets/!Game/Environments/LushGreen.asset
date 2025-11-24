@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7000bc579aa57724f8f2c56338a901bb, type: 3}
+  m_Name: LushGreen
+  m_EditorClassIdentifier: 
+  environmentName: Grasslands
+  environmentDescription: A lush green forest area
+  environmentIcon: {fileID: 21300000, guid: 0e4295b700bab42baa85f9bbaa12bc92, type: 3}
+  environmentPrefab: {fileID: 2080465638924818279, guid: 4efe0d5834af47646b7595eff830f34c, type: 3}

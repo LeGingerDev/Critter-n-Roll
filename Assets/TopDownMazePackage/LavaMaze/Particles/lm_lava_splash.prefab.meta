@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5057051cd2be49147aa66234418c625b
+timeCreated: 1481277374
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Particles/lm_lava_splash.prefab
+  uploadId: 167957

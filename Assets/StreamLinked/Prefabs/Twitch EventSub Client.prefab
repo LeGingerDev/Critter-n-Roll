@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4268456086453760117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4268456086453760075}
+  - component: {fileID: 4268456086453760116}
+  m_Layer: 0
+  m_Name: Twitch EventSub Client
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4268456086453760075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4268456086453760117}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 151.26675, y: 475.47287, z: -918.38934}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4268456086453760116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4268456086453760117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d9c30c183fcd646b5ed0ee6da02bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LogDebugLevel: 2
+  KeepaliveTimeoutSeconds: 10
+  eventSubToken: {fileID: 11400000, guid: b44077cf3e92a4d46bf0f77d78e21892, type: 2}
+  OnAutoMessageHold:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAutoMessageHoldV2:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAutoMessageUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAutoMessageUpdateV2:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAutomodSettingsUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAutomodTermsUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelBitsUse:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelFollow:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelAdBreakBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelChatClear:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelChatClearUserMessages:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelChatMessage:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelChatMessageDelete:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelChatNotification:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelChatSettingsUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelChatUserMessageHold:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelChatUserMessageUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelSharedChatSessionBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelSharedChatSessionUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelSharedChatSessionEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelSubscribe:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelSubscriptionEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelSubscriptionGift:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelSubscriptionMessage:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelCheer:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelRaid:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelBan:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelUnban:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelUnbanRequestCreate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelUnbanRequestResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelModerate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelModerateV2:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelModeratorAdd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelModeratorRemove:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelGuestStarSessionBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelGuestStarSessionEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelGuestStarGuestUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelGuestStarSettingsUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelPointsAutomaticRewardRedemption:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelPointsAutomaticRewardRedemptionV2:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelPointsCustomRewardAdd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelPointsCustomRewardUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelPointsCustomRewardRemove:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelPointsCustomRewardRedemptionAdd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelPointsCustomRewardRedemptionUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelPollBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelPollProgress:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelPollEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelPredictionBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelPredictionProgress:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelPredictionLock:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelPredictionEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelSuspiciousUserMessage:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelSuspiciousUserUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelVIPAdd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelVIPRemove:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelWarningAcknowledge:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChannelWarningSend:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCharityDonation:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCharityCampaignStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCharityCampaignProgress:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCharityCampaignStop:
+    m_PersistentCalls:
+      m_Calls: []
+  OnConduitShardDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDropEntitlementGrant:
+    m_PersistentCalls:
+      m_Calls: []
+  OnExtensionBitsTransactionCreate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGoalsBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGoalsProgress:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGoalsEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHypeTrainBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHypeTrainProgress:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHypeTrainEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnShoutoutCreate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnShoutoutReceived:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStreamOnline:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStreamOffline:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUserAuthorizationGrant:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUserAuthorizationRevoke:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUserUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnWhisperReceived:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUserRemovedSubscriptionRevoked:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAuthorizationRemoved:
+    m_PersistentCalls:
+      m_Calls: []
+  OnVersionRemovedSubscriptionRevoked:
+    m_PersistentCalls:
+      m_Calls: []
+  persistBetweenScenes: 1

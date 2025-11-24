@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 798bc7b4b35d0f74594ec0aa831450ed
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/TwitchEventSub/Events/Objects/BlockedTerm.cs
+  uploadId: 761168

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1906a384d59b24043b34ecbfc8b2f84c
+timeCreated: 1481623230
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/DesertMaze/Prefabs/small_rock_set_02.prefab
+  uploadId: 167957

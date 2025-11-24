@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6c36a89b7151e9f4dbc4cc4fad90a6cf
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/LightJson/License and Information.txt
+  uploadId: 761168

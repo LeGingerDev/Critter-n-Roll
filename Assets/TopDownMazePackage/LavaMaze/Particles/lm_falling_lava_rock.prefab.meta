@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 619e1099009cd544aa5da4f3a4dfb5c4
+timeCreated: 1481284497
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Particles/lm_falling_lava_rock.prefab
+  uploadId: 167957

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7772b907511294b4d87d9620720d2cf3
+timeCreated: 1472141827
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Prefabs/snow_pile_02.prefab
+  uploadId: 167957

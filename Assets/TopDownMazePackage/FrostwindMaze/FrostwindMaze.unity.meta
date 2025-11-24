@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 761c6515a06b51447acdb35927d88dbe
+timeCreated: 1471803947
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/FrostwindMaze.unity
+  uploadId: 167957

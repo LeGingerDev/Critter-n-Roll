@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3c2ed6cfbb839f242bedeaf65795fdb2
+timeCreated: 1473351829
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Info/FWM_Info.txt
+  uploadId: 167957

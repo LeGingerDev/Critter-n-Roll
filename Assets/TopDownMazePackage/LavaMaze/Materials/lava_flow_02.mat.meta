@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 046450962fd549540a2f85a1683b03fc
+timeCreated: 1481202970
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Materials/lava_flow_02.mat
+  uploadId: 167957

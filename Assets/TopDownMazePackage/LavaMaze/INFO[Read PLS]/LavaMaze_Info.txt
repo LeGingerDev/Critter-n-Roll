@@ -1,0 +1,14 @@
+Greetings user!
+
+-This package is using couple of IMAGE EFFECTS from Unity Standart Assets. 
+If you dont have them already, you can import them for free from Standart Packages and set on your camera by add component. 
+
+-Global Fog
+-Bloom Optimized
+-Depth of Field
+
+-All the settings of effects is on the screenshot below.
+
+-If you are looking for optimization, please be sure to bake the point lights in the scene, or disable them.
+
+-For any info feel free to ask at zugzug.art@gmail.com

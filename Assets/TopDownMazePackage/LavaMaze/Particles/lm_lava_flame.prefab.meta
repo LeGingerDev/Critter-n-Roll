@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 47b32336ec361444b90e5259253bf55c
+timeCreated: 1481200453
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Particles/lm_lava_flame.prefab
+  uploadId: 167957

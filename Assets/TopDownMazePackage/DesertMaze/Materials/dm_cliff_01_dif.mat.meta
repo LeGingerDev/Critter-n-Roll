@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3ab1d02b47b42934991eb124177999d1
+timeCreated: 1487002295
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/DesertMaze/Materials/dm_cliff_01_dif.mat
+  uploadId: 167957

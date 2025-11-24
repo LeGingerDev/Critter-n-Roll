@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b8e9049a851a16247b11253233936d74
+timeCreated: 1481206802
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Controllers/lava_grid.controller
+  uploadId: 167957

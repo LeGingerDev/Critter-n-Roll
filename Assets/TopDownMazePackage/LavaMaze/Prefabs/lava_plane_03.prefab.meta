@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b83ab7d5aad59a848968ad17395f6a5f
+timeCreated: 1481284838
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Prefabs/lava_plane_03.prefab
+  uploadId: 167957

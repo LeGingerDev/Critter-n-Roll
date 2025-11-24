@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0fb3af770dff13341a89c30757c8c07b
+timeCreated: 1481626271
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Particles/portal_fx_01.prefab
+  uploadId: 167957

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 530a0f5e4173183428473767a15cb9b7
+timeCreated: 1472141451
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Prefabs/ice_wall_01.prefab
+  uploadId: 167957

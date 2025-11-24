@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3cb6db9ead58d5e47930dbf7a23069d5
+timeCreated: 1481626381
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/DesertMaze/Prefabs/portal.prefab
+  uploadId: 167957

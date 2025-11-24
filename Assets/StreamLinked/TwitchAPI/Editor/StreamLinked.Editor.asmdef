@@ -1,0 +1,18 @@
+{
+    "name": "StreamLinked.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:becb6bd1922f06f4091b5fe4af3f7822"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "WebGL"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

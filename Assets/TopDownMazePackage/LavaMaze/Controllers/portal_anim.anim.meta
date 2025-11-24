@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7d47e2c38a046b346a07e5e36c90bbf8
+timeCreated: 1481625643
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Controllers/portal_anim.anim
+  uploadId: 167957

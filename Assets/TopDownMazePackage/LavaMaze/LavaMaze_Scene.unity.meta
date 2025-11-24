@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fa3599b7863e393418ae0091bdce2871
+timeCreated: 1480884215
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/LavaMaze_Scene.unity
+  uploadId: 167957

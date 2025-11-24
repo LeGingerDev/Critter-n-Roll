@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bf94f76a1011d2448a76caaf1a405a25
+timeCreated: 1485777747
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/DesertMaze/Materials/plants_03_dif.mat
+  uploadId: 167957

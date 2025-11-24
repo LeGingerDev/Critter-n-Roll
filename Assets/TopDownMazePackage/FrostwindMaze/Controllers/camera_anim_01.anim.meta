@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fcb0474fa8814bc4783c5ca9ecf8d15e
+timeCreated: 1472401176
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Controllers/camera_anim_01.anim
+  uploadId: 167957

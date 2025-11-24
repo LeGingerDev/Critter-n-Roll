@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a9c5192ff566fb2448c37b99948921cd
+timeCreated: 1481624425
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Materials/lm_portal_fx_01.mat
+  uploadId: 167957

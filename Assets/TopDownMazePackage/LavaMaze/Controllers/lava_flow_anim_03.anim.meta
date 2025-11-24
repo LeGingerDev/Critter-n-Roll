@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 062fd19afa8af214ebdf54b6e7c47943
+timeCreated: 1481206802
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Controllers/lava_flow_anim_03.anim
+  uploadId: 167957

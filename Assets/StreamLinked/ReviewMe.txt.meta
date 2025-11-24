@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bba434af9cdd71b478f6747099c0d776
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/ReviewMe.txt
+  uploadId: 761168

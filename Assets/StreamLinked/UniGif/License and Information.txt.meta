@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b6d597089342a6548b4468bb5aa01e2b
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/UniGif/License and Information.txt
+  uploadId: 761168

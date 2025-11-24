@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c113a16646d78e545b89f56a4694a1ee
+timeCreated: 1481725426
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/DesertMaze/Prefabs/dm_magic_stone.prefab
+  uploadId: 167957

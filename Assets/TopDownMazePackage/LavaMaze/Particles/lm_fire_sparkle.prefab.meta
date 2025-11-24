@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e17b3ac8d48f5734daa78c27f1d57686
+timeCreated: 1481201819
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Particles/lm_fire_sparkle.prefab
+  uploadId: 167957
