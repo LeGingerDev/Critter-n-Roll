@@ -1,0 +1,430 @@
+; FBX 6.1.0 project file
+; Created by Blender FBX Exporter
+; for support mail: ideasman42@gmail.com
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 6100
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2016
+		Month: 08
+		Day: 21
+		Hour: 21
+		Minute: 08
+		Second: 50
+		Millisecond: 0
+	}
+	Creator: "FBX SDK/FBX Plugins build 20070228"
+	OtherFlags:  {
+		FlagPLE: 0
+	}
+}
+CreationTime: "2016-08-21 21:08:50:000"
+Creator: "Blender version 2.77 (sub 0)"
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 5
+	ObjectType: "Model" {
+		Count: 1
+	}
+	ObjectType: "Geometry" {
+		Count: 1
+	}
+	ObjectType: "Material" {
+		Count: 1
+	}
+	ObjectType: "Texture" {
+		Count: 1
+	}
+	ObjectType: "Video" {
+		Count: 1
+	}
+	ObjectType: "Pose" {
+		Count: 1
+	}
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	Model: "Model::snow_pile_02", "Mesh" {
+		Version: 232
+		Properties60:  {
+			Property: "QuaternionInterpolate", "bool", "",0
+			Property: "Visibility", "Visibility", "A+",1
+			Property: "Lcl Translation", "Lcl Translation", "A+",0.000000000000000,0.000000000000000,0.000000000000000
+			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.000000000000000,0.000000000000000,0.000000000000000
+			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000000000000,1.000000000000000,1.000000000000000
+			Property: "RotationOffset", "Vector3D", "",0,0,0
+			Property: "RotationPivot", "Vector3D", "",0,0,0
+			Property: "ScalingOffset", "Vector3D", "",0,0,0
+			Property: "ScalingPivot", "Vector3D", "",0,0,0
+			Property: "TranslationActive", "bool", "",0
+			Property: "TranslationMin", "Vector3D", "",0,0,0
+			Property: "TranslationMax", "Vector3D", "",0,0,0
+			Property: "TranslationMinX", "bool", "",0
+			Property: "TranslationMinY", "bool", "",0
+			Property: "TranslationMinZ", "bool", "",0
+			Property: "TranslationMaxX", "bool", "",0
+			Property: "TranslationMaxY", "bool", "",0
+			Property: "TranslationMaxZ", "bool", "",0
+			Property: "RotationOrder", "enum", "",0
+			Property: "RotationSpaceForLimitOnly", "bool", "",0
+			Property: "AxisLen", "double", "",10
+			Property: "PreRotation", "Vector3D", "",0,0,0
+			Property: "PostRotation", "Vector3D", "",0,0,0
+			Property: "RotationActive", "bool", "",0
+			Property: "RotationMin", "Vector3D", "",0,0,0
+			Property: "RotationMax", "Vector3D", "",0,0,0
+			Property: "RotationMinX", "bool", "",0
+			Property: "RotationMinY", "bool", "",0
+			Property: "RotationMinZ", "bool", "",0
+			Property: "RotationMaxX", "bool", "",0
+			Property: "RotationMaxY", "bool", "",0
+			Property: "RotationMaxZ", "bool", "",0
+			Property: "RotationStiffnessX", "double", "",0
+			Property: "RotationStiffnessY", "double", "",0
+			Property: "RotationStiffnessZ", "double", "",0
+			Property: "MinDampRangeX", "double", "",0
+			Property: "MinDampRangeY", "double", "",0
+			Property: "MinDampRangeZ", "double", "",0
+			Property: "MaxDampRangeX", "double", "",0
+			Property: "MaxDampRangeY", "double", "",0
+			Property: "MaxDampRangeZ", "double", "",0
+			Property: "MinDampStrengthX", "double", "",0
+			Property: "MinDampStrengthY", "double", "",0
+			Property: "MinDampStrengthZ", "double", "",0
+			Property: "MaxDampStrengthX", "double", "",0
+			Property: "MaxDampStrengthY", "double", "",0
+			Property: "MaxDampStrengthZ", "double", "",0
+			Property: "PreferedAngleX", "double", "",0
+			Property: "PreferedAngleY", "double", "",0
+			Property: "PreferedAngleZ", "double", "",0
+			Property: "InheritType", "enum", "",0
+			Property: "ScalingActive", "bool", "",0
+			Property: "ScalingMin", "Vector3D", "",1,1,1
+			Property: "ScalingMax", "Vector3D", "",1,1,1
+			Property: "ScalingMinX", "bool", "",0
+			Property: "ScalingMinY", "bool", "",0
+			Property: "ScalingMinZ", "bool", "",0
+			Property: "ScalingMaxX", "bool", "",0
+			Property: "ScalingMaxY", "bool", "",0
+			Property: "ScalingMaxZ", "bool", "",0
+			Property: "GeometricTranslation", "Vector3D", "",0,0,0
+			Property: "GeometricRotation", "Vector3D", "",0,0,0
+			Property: "GeometricScaling", "Vector3D", "",1,1,1
+			Property: "LookAtProperty", "object", ""
+			Property: "UpVectorProperty", "object", ""
+			Property: "Show", "bool", "",1
+			Property: "NegativePercentShapeSupport", "bool", "",1
+			Property: "DefaultAttributeIndex", "int", "",0
+			Property: "Color", "Color", "A",0.8,0.8,0.8
+			Property: "Size", "double", "",100
+			Property: "Look", "enum", "",1
+		}
+		MultiLayer: 0
+		MultiTake: 1
+		Shading: Y
+		Culling: "CullingOff"
+		Vertices: -0.198642,0.293604,2.104201,-0.209733,0.207416,-2.174249,0.369113,0.277458,2.143392,0.192551,0.148537,-2.113536,
+		          -0.367095,0.406368,1.713190,-0.357803,0.304290,-1.686026,0.343697,0.198498,-1.567387,0.410529,0.342343,1.677420,
+		          -0.353634,0.323946,0.032364,0.389854,0.189171,0.074492,0.312790,0.224500,0.926854,-0.353634,0.294878,0.926854,
+		          -0.501108,0.227139,-0.793392,0.404024,0.294877,-0.825556,-0.011282,0.229822,-2.281272,0.078801,0.259496,2.286505,
+		          0.047650,0.457738,1.675133,-0.029660,0.400110,-1.756615,-0.059287,0.387900,0.032364,-0.029660,0.304421,0.926854,
+		          0.015396,0.318630,-0.862125,-0.428411,-0.002188,2.127022,-0.360410,-0.016588,-2.294461,0.488459,-0.023323,2.233382,
+		          0.284065,-0.071193,-2.220775,-0.528589,0.081642,1.583792,-0.538240,0.082422,-1.696515,0.536868,-0.093603,-1.600529,
+		          0.578491,0.059020,1.605554,-0.513546,0.102079,0.031233,0.539181,-0.086391,0.037681,0.451939,-0.079254,1.010089,
+		          -0.534401,-0.019495,0.956524,-0.603046,0.005272,-0.876112,0.559502,0.073010,-0.886926,0.002332,0.007955,-2.421980,
+		          0.065799,-0.019364,2.412019
+		PolygonVertexIndex: 17,14,1,-6,15,16,4,-1,20,17,5,-13,19,18,8,-12,16,19,11,-5,18,20,12,-9,9,13,20,-19,7,10,19,-17,
+		                    10,9,18,-20,13,6,17,-21,2,7,16,-16,6,3,14,-18,10,7,28,-32,5,1,22,-27,14,3,24,-36,8,12,33,-30,
+		                    7,2,23,-29,6,13,34,-28,11,8,29,-33,15,0,21,-37,13,9,30,-35,0,4,25,-22,1,14,35,-23,12,5,26,-34,
+		                    2,15,36,-24,9,10,31,-31,3,6,27,-25,4,11,32,-26,32,29,30,-32,34,30,29,-34,33,26,27,-35,35,24,-23,26,
+		                    22,24,-28,31,28,25,-33,28,23,21,-26,36,21,-24
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			Normals: 0.088260,0.984222,-0.153294,0.130772,0.777306,-0.615345,-0.473830,0.746086,-0.467727,-0.540513,0.830195,-0.136265,
+			         -0.003021,0.691153,0.722678,0.073397,0.996582,0.037843,-0.550371,0.823420,0.137944,-0.446181,0.720420,0.530900,
+			         0.047304,0.998871,0.001740,0.088260,0.984222,-0.153294,-0.540513,0.830195,-0.136265,-0.614765,0.788659,0.003906,
+			         0.097415,0.992828,-0.069185,0.059236,0.998169,0.010041,-0.531999,0.846583,0.015656,-0.548784,0.834986,-0.039491,
+			         0.073397,0.996582,0.037843,0.097415,0.992828,-0.069185,-0.548784,0.834986,-0.039491,-0.550371,0.823420,0.137944,
+			         0.059236,0.998169,0.010041,0.047304,0.998871,0.001740,-0.614765,0.788659,0.003906,-0.531999,0.846583,0.015656,
+			         0.646290,0.760521,0.062105,0.590594,0.806940,-0.004425,0.047304,0.998871,0.001740,0.059236,0.998169,0.010041,
+			         0.619404,0.784997,0.008637,0.634419,0.768700,-0.080905,0.097415,0.992828,-0.069185,0.073397,0.996582,0.037843,
+			         0.634419,0.768700,-0.080905,0.646290,0.760521,0.062105,0.059236,0.998169,0.010041,0.097415,0.992828,-0.069185,
+			         0.590594,0.806940,-0.004425,0.630299,0.758202,-0.166723,0.088260,0.984222,-0.153294,0.047304,0.998871,0.001740,
+			         0.549516,0.702475,0.452193,0.619404,0.784997,0.008637,0.073397,0.996582,0.037843,-0.003021,0.691153,0.722678,
+			         0.630299,0.758202,-0.166723,0.667226,0.644765,-0.372875,0.130772,0.777306,-0.615345,0.088260,0.984222,-0.153294,
+			         0.634419,0.768700,-0.080905,0.619404,0.784997,0.008637,0.889460,0.452889,-0.061252,0.886079,0.453422,-0.096290,
+			         -0.540513,0.830195,-0.136265,-0.473830,0.746086,-0.467727,-0.560537,0.612012,-0.557888,-0.785813,0.589531,-0.186951,
+			         0.130772,0.777306,-0.615345,0.667226,0.644765,-0.372875,0.725032,0.516232,-0.455886,0.171406,0.599338,-0.781930,
+			         -0.531999,0.846583,0.015656,-0.614765,0.788659,0.003906,-0.849502,0.527517,-0.008530,-0.854091,0.517826,0.048831,
+			         0.619404,0.784997,0.008637,0.549516,0.702475,0.452193,0.683137,0.452930,0.572868,0.889460,0.452889,-0.061252,
+			         0.630299,0.758202,-0.166723,0.590594,0.806940,-0.004425,0.834107,0.549594,-0.047041,0.804998,0.549668,-0.223256,
+			         -0.548784,0.834986,-0.039491,-0.531999,0.846583,0.015656,-0.854091,0.517826,0.048831,-0.860880,0.508245,-0.023912,
+			         -0.003021,0.691153,0.722678,-0.446181,0.720420,0.530900,-0.700109,0.454780,0.550474,-0.044281,0.429156,0.902144,
+			         0.590594,0.806940,-0.004425,0.646290,0.760521,0.062105,0.873597,0.479967,0.080372,0.834107,0.549594,-0.047041,
+			         -0.446181,0.720420,0.530900,-0.550371,0.823420,0.137944,-0.871874,0.482654,0.082951,-0.700109,0.454780,0.550474,
+			         -0.473830,0.746086,-0.467727,0.130772,0.777306,-0.615345,0.171406,0.599338,-0.781930,-0.560537,0.612012,-0.557888,
+			         -0.614765,0.788659,0.003906,-0.540513,0.830195,-0.136265,-0.785813,0.589531,-0.186951,-0.849502,0.527517,-0.008530,
+			         0.549516,0.702475,0.452193,-0.003021,0.691153,0.722678,-0.044281,0.429156,0.902144,0.683137,0.452930,0.572868,
+			         0.646290,0.760521,0.062105,0.634419,0.768700,-0.080905,0.886079,0.453422,-0.096290,0.873597,0.479967,0.080372,
+			         0.667226,0.644765,-0.372875,0.630299,0.758202,-0.166723,0.804998,0.549668,-0.223256,0.725032,0.516232,-0.455886,
+			         -0.550371,0.823420,0.137944,-0.548784,0.834986,-0.039491,-0.860880,0.508245,-0.023912,-0.871874,0.482654,0.082951,
+			         -0.083998,-0.994548,0.061801,-0.085706,-0.995124,-0.048821,-0.085883,-0.995104,-0.048916,-0.080677,-0.994007,0.073761,
+			         -0.052482,-0.998544,0.012455,-0.085883,-0.995104,-0.048916,-0.085706,-0.995124,-0.048821,-0.052485,-0.998545,0.012395,
+			         -0.052485,-0.998545,0.012395,-0.092016,-0.993742,0.063322,-0.086026,-0.994338,0.062383,-0.052482,-0.998544,0.012455,
+			         -0.044939,-0.949487,-0.310573,-0.122046,-0.992508,-0.005756,-0.120917,-0.992606,-0.010604,-0.092016,-0.993742,0.063322,
+			         -0.120917,-0.992606,-0.010604,-0.122046,-0.992508,-0.005756,-0.086026,-0.994338,0.062383,-0.080677,-0.994007,0.073761,
+			         -0.028899,-0.999329,0.022509,-0.030785,-0.998654,0.041734,-0.083998,-0.994548,0.061801,-0.028899,-0.999329,0.022509,
+			         -0.014386,-0.993556,-0.112422,-0.013888,-0.992688,-0.119906,-0.030785,-0.998654,0.041734,-0.020094,-0.999476,-0.025391,
+			         -0.013888,-0.992688,-0.119906,-0.014386,-0.993556,-0.112422
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVMap"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: 0.282367,0.716779,0.082666,0.768016,0.047169,0.766009,0.048296,0.687012,0.132882,0.770247,0.121830,0.850055,
+			    0.122589,0.624320,0.119292,0.590111,0.115313,0.949369,0.161684,0.627058,0.130143,0.911959,0.203825,0.688815,
+			    0.214623,0.716072,0.248105,0.398789,0.287248,0.636112,0.298118,0.494817,0.220310,0.494649,0.222183,0.406195,
+			    0.293286,0.682480,0.050850,0.916485,0.062218,0.949619,0.084898,0.921789,0.088461,0.625415,0.086490,0.949048,
+			    0.090023,0.583464,0.057170,0.615556,0.060283,0.589265,0.086521,0.848965,0.044126,0.850435,0.207174,0.630136,
+			    0.211505,0.562334,0.294861,0.563099,0.144610,0.969732,0.157477,0.856717,0.169889,0.920699,0.008103,0.685141,
+			    0.045354,0.550928,0.091485,0.548219,0.175814,0.773374,0.012860,0.613959,0.017701,0.577454,0.052902,0.983332,
+			    0.137550,0.553080,0.214176,0.439103,0.248397,0.726424,0.278529,0.405959,0.125675,0.687835,0.090006,0.688227,
+			    0.171586,0.682061,0.035352,0.972411,0.019458,0.931771,0.133758,0.980028,0.089951,0.979733,0.009148,0.857113,
+			    0.011885,0.766695,0.160926,0.584136,0.303043,0.441518
+			UVIndex: 21,23,20,19,24,22,25,26,27,21,19,28,47,1,2,3,22,47,3,25,1,27,28,2,4,5,27,1,6,46,47,22,46,4,1,47,5,10,21,27,7,6,22,24,10,8,23,21,46,6,9,48,19,20,49,50,23,8,51,52,2,28,53,54,
+			         6,7,55,9,10,5,33,34,3,2,54,35,24,26,36,37,5,4,38,33,26,25,39,40,20,23,52,41,28,19,50,53,7,24,37,42,4,46,48,38,8,10,34,32,25,3,35,39,29,30,31,14,15,31,30,16,16,43,56,15,13,45,17,43,
+			         17,45,56,14,18,11,29,18,0,12,11,44,12,0
+		}
+		LayerElementTexture: 0 {
+			Version: 101
+			Name: "UVMap"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			BlendMode: "Translucent"
+			TextureAlpha: 1
+			TextureId: 0
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: 0
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTexture"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+		}
+	}
+	Material: "Material::None__ice_maze_dif_png", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties60:  {
+			Property: "ShadingModel", "KString", "", "Phong"
+			Property: "MultiLayer", "bool", "",0
+			Property: "EmissiveColor", "ColorRGB", "",0.8000,0.8000,0.8000
+			Property: "EmissiveFactor", "double", "",0.0000
+			Property: "AmbientColor", "ColorRGB", "",1.0000,1.0000,1.0000
+			Property: "AmbientFactor", "double", "",1.0000
+			Property: "DiffuseColor", "ColorRGB", "",0.8000,0.8000,0.8000
+			Property: "DiffuseFactor", "double", "",0.8000
+			Property: "Bump", "Vector3D", "",0,0,0
+			Property: "TransparentColor", "ColorRGB", "",1,1,1
+			Property: "TransparencyFactor", "double", "",0.0000
+			Property: "SpecularColor", "ColorRGB", "",1.0000,1.0000,1.0000
+			Property: "SpecularFactor", "double", "",0.5000
+			Property: "ShininessExponent", "double", "",12.3
+			Property: "ReflectionColor", "ColorRGB", "",0,0,0
+			Property: "ReflectionFactor", "double", "",1
+			Property: "Emissive", "ColorRGB", "",0,0,0
+			Property: "Ambient", "ColorRGB", "",1.0,1.0,1.0
+			Property: "Diffuse", "ColorRGB", "",0.8,0.8,0.8
+			Property: "Specular", "ColorRGB", "",1.0,1.0,1.0
+			Property: "Shininess", "double", "",12.3
+			Property: "Opacity", "double", "",1.0
+			Property: "Reflectivity", "double", "",0
+		}
+	}
+	Video: "Video::ice_maze_dif_png", "Clip" {
+		Type: "Clip"
+		Properties60:  {
+			Property: "FrameRate", "double", "",0
+			Property: "LastFrame", "int", "",0
+			Property: "Width", "int", "",0
+			Property: "Height", "int", "",0
+			Property: "Path", "charptr", "", "ice_maze_dif.png"
+			Property: "StartFrame", "int", "",0
+			Property: "StopFrame", "int", "",0
+			Property: "PlaySpeed", "double", "",1
+			Property: "Offset", "KTime", "",0
+			Property: "InterlaceMode", "enum", "",0
+			Property: "FreeRunning", "bool", "",0
+			Property: "Loop", "bool", "",0
+			Property: "AccessMode", "enum", "",0
+		}
+		UseMipMap: 0
+		Filename: "ice_maze_dif.png"
+		RelativeFilename: "C:\Users\Activision\Desktop\WIP\1IceDungeon\ice_maze_dif.png"
+	}
+	Texture: "Texture::ice_maze_dif_png", "TextureVideoClip" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::ice_maze_dif_png"
+		Properties60:  {
+			Property: "Translation", "Vector", "A+",0,0,0
+			Property: "Rotation", "Vector", "A+",0,0,0
+			Property: "Scaling", "Vector", "A+",1,1,1
+			Property: "Texture alpha", "Number", "A+",0
+			Property: "TextureTypeUse", "enum", "",0
+			Property: "CurrentTextureBlendMode", "enum", "",1
+			Property: "UseMaterial", "bool", "",0
+			Property: "UseMipMap", "bool", "",0
+			Property: "CurrentMappingType", "enum", "",0
+			Property: "UVSwap", "bool", "",0
+			Property: "WrapModeU", "enum", "",0
+			Property: "WrapModeV", "enum", "",0
+			Property: "TextureRotationPivot", "Vector3D", "",0,0,0
+			Property: "TextureScalingPivot", "Vector3D", "",0,0,0
+			Property: "VideoProperty", "object", ""
+		}
+		Media: "Video::ice_maze_dif_png"
+		FileName: "ice_maze_dif.png"
+		RelativeFilename: "C:\Users\Activision\Desktop\WIP\1IceDungeon\ice_maze_dif.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Pose: "Pose::BIND_POSES", "BindPose" {
+		Type: "BindPose"
+		Version: 100
+		Properties60:  {
+		}
+		NbPoseNodes: 1
+		PoseNode:  {
+			Node: "Model::snow_pile_02"
+			Matrix: 0.000000075497901,0.000000000000000,-1.000000000000000,0.000000000000000,-1.000000000000000,0.000000000000000,-0.000000075497901,0.000000000000000,0.000000000000000,1.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000
+		}
+	}
+	GlobalSettings:  {
+		Version: 1000
+		Properties60:  {
+			Property: "UpAxis", "int", "",1
+			Property: "UpAxisSign", "int", "",1
+			Property: "FrontAxis", "int", "",2
+			Property: "FrontAxisSign", "int", "",1
+			Property: "CoordAxis", "int", "",0
+			Property: "CoordAxisSign", "int", "",1
+			Property: "UnitScaleFactor", "double", "",1
+		}
+	}
+}
+
+; Object relations
+;------------------------------------------------------------------
+
+Relations:  {
+	Model: "Model::snow_pile_02", "Mesh" {
+	}
+	Model: "Model::Producer Perspective", "Camera" {
+	}
+	Model: "Model::Producer Top", "Camera" {
+	}
+	Model: "Model::Producer Bottom", "Camera" {
+	}
+	Model: "Model::Producer Front", "Camera" {
+	}
+	Model: "Model::Producer Back", "Camera" {
+	}
+	Model: "Model::Producer Right", "Camera" {
+	}
+	Model: "Model::Producer Left", "Camera" {
+	}
+	Model: "Model::Camera Switcher", "CameraSwitcher" {
+	}
+	Material: "Material::None__ice_maze_dif_png", "" {
+	}
+	Texture: "Texture::ice_maze_dif_png", "TextureVideoClip" {
+	}
+	Video: "Video::ice_maze_dif_png", "Clip" {
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	Connect: "OO", "Model::snow_pile_02", "Model::Scene"
+	Connect: "OO", "Material::None__ice_maze_dif_png", "Model::snow_pile_02"
+	Connect: "OO", "Texture::ice_maze_dif_png", "Model::snow_pile_02"
+	Connect: "OO", "Video::ice_maze_dif_png", "Texture::ice_maze_dif_png"
+}
+;Takes and animation section
+;----------------------------------------------------
+
+Takes:  {
+	Current: ""
+}
+;Version 5 settings
+;------------------------------------------------------------------
+
+Version5:  {
+	AmbientRenderSettings:  {
+		Version: 101
+		AmbientLightColor: 0.0,0.0,0.0,0
+	}
+	FogOptions:  {
+		FogEnable: 0
+		FogMode: 0
+		FogDensity: 0.000
+		FogStart: 5.000
+		FogEnd: 25.000
+		FogColor: 0.1,0.1,0.1,1
+	}
+	Settings:  {
+		FrameRate: "24"
+		TimeFormat: 1
+		SnapOnFrames: 0
+		ReferenceTimeIndex: -1
+		TimeLineStartTime: 0
+		TimeLineStopTime: 479181389250
+	}
+	RendererSetting:  {
+		DefaultCamera: "Producer Perspective"
+		DefaultViewingMode: 0
+	}
+}

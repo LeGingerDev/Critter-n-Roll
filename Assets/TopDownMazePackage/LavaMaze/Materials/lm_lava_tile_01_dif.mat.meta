@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fa112d88f21cd414e95330f59b4fae2b
+timeCreated: 1481057015
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Materials/lm_lava_tile_01_dif.mat
+  uploadId: 167957

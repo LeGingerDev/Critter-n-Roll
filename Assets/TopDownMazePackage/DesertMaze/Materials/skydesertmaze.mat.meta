@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bf53348e46d3d584f974f8c519159b27
+timeCreated: 1480883904
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/DesertMaze/Materials/skydesertmaze.mat
+  uploadId: 167957

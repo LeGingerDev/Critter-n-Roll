@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 32025d013129d9a4c96e00f5f9896713
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/StreamLinked Manual Upgrade Guide.pdf
+  uploadId: 761168

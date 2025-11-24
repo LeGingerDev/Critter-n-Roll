@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29fec70949e4ac54899e0fd68c0c0267, type: 3}
+  m_Name: Medium_Speed_Trap
+  m_EditorClassIdentifier: 
+  levelDifficulty: 1
+  levelName: Speed Trap
+  levelDescription: 
+  levelVisual: {fileID: 21300000, guid: 0ce64eb1ab0e7334da0702412c06bb80, type: 3}
+  baseLevelDuration: 120
+  levelPrefab: {fileID: 2949547622233824086, guid: 3c8d6a8d9cd56c244a8d06e6867e205a, type: 3}
+  _levelPrefabPreview: {fileID: 203596593260769173, guid: 3c8d6a8d9cd56c244a8d06e6867e205a, type: 3}
+  environment: {fileID: 11400000, guid: d42d875d7d40ea045a777c2dc8b7b913, type: 2}

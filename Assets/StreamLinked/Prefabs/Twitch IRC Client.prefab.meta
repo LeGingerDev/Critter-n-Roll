@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c7aac1fc9f90f7f4e9197a8819198d5e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/Prefabs/Twitch IRC Client.prefab
+  uploadId: 761168

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 01e7071ddc417134088eb3cba335b962
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/ManagersAndBuilders/Containers/CoroutineWrapper.cs
+  uploadId: 761168

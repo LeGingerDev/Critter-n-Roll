@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2a4cf043d1508cb41ad202ddfa727b75
+timeCreated: 1472315604
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Prefabs/icicle_02.prefab
+  uploadId: 167957

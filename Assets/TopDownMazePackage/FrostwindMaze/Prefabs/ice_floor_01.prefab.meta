@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 858a8fa349c9e484ea36675b46982a5c
+timeCreated: 1472141373
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Prefabs/ice_floor_01.prefab
+  uploadId: 167957

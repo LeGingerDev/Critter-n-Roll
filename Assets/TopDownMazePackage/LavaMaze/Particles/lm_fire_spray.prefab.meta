@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b68b00a5540f2654fa635042a267dc0e
+timeCreated: 1481199247
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Particles/lm_fire_spray.prefab
+  uploadId: 167957

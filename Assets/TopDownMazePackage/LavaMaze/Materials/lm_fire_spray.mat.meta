@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4fbaf80741cb0124080474f8f3d41b58
+timeCreated: 1481197649
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Materials/lm_fire_spray.mat
+  uploadId: 167957

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d2d9009ee2c1c77448b4d06c2ddf675e
+timeCreated: 1482416780
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/DesertMaze/Prefabs/dm_tile_01_2x3.prefab
+  uploadId: 167957

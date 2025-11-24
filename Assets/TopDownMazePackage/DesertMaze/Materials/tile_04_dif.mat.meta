@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f4c55aa1f4f2d4244b81da28235d6d84
+timeCreated: 1481050272
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/DesertMaze/Materials/tile_04_dif.mat
+  uploadId: 167957

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c057dd7e67b01594cad899a74da4dc13
+timeCreated: 1471969361
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/FX/snow_fx_01.prefab
+  uploadId: 167957

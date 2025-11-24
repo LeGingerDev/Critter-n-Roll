@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5dd86c9be01f86d47baa758b31f378ba
+timeCreated: 1481275521
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Particles/lm_lava_fog.prefab
+  uploadId: 167957

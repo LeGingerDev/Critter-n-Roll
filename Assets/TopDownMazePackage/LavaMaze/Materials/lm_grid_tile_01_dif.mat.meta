@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 829bacbda20db4c42b0719def34a55df
+timeCreated: 1480962990
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Materials/lm_grid_tile_01_dif.mat
+  uploadId: 167957

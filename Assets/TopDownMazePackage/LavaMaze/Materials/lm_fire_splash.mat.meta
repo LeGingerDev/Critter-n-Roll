@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 21703b6b63abd9f4c9e4e58cdebfc28a
+timeCreated: 1481201421
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Materials/lm_fire_splash.mat
+  uploadId: 167957

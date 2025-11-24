@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c1b9d5d3cfd71af4a9869f0c4ad81837
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/Prefabs/Badge Manager.prefab
+  uploadId: 761168

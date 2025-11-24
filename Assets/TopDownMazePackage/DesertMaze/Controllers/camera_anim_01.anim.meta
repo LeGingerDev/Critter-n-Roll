@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eab8b1d27c0fcd144a9d6782db4a7c7c
+timeCreated: 1482869585
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/DesertMaze/Controllers/camera_anim_01.anim
+  uploadId: 167957

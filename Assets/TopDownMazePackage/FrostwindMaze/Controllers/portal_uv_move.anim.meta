@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 50fc626d25ab3ca40ad7bc9b4bf06e15
+timeCreated: 1472374753
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Controllers/portal_uv_move.anim
+  uploadId: 167957

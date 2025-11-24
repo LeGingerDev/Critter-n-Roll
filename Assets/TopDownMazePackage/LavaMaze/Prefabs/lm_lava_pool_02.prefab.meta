@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6710258085f3df94e9460350664ba8d7
+timeCreated: 1481621884
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Prefabs/lm_lava_pool_02.prefab
+  uploadId: 167957

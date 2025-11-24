@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 70f3d6536a4efd543acaa420f851566d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/TwitchIRC/TwitchTagClasses/Containers/ROOMSTATE.cs
+  uploadId: 761168

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7465bbd1ece448d4f8c92b19ac6bb3d5
+timeCreated: 1482420316
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Prefabs/lm_tile_02_2x2.prefab
+  uploadId: 167957

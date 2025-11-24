@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 549d78cbc2360454e8b4e525f669f6ba
+timeCreated: 1481622060
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Prefabs/small_volcano.prefab
+  uploadId: 167957

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8ea8b055ca6d21a41a9e84194a67aa70
+timeCreated: 1481625643
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Controllers/portal_plane_fx.controller
+  uploadId: 167957

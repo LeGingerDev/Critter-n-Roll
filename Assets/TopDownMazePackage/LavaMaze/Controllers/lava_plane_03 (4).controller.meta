@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b73235161f7246243a0064e9eb1328e1
+timeCreated: 1481205403
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Controllers/lava_plane_03 (4).controller
+  uploadId: 167957

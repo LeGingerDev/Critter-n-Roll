@@ -1,0 +1,26 @@
+
+LightJson
+
+This project uses a modified version of LightJson.
+
+Available at: https://github.com/MarcosLopezC/LightJson
+
+A minimalist JSON library designed to easily encode and decode JSON messages.
+
+Created by: Marcos López C. (MarcosLopezC)
+
+This project is licensed under the MIT license
+
+-----------------------------------------------------------------------------------------------------
+
+UniGif
+
+This project uses a modified version of UniGif.
+
+Available at: https://github.com/WestHillApps/UniGif
+
+GIF image decoder for Unity.
+
+Created by: WestHillApps (Hironari Nishioka)
+
+This project is licensed under the MIT license

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 227d69d3ffba5334d83309eccd2cc166
+timeCreated: 1471803033
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/FrostwindMaze/Materials/ice_maze_dif.mat
+  uploadId: 167957

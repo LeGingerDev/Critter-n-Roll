@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c76a589858fe0db4d9730d11dcb19046
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/Scenes/Message Test Scene.unity
+  uploadId: 761168

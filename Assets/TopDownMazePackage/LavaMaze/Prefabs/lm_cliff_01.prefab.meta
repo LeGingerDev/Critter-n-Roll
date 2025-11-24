@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d3177b4da5bdde64f9445344d8b519f9
+timeCreated: 1481536660
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Prefabs/lm_cliff_01.prefab
+  uploadId: 167957

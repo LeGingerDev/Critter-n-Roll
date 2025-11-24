@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 17d9de8273aa5ab4790ca06d526e6cfa
+timeCreated: 1485777746
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/DesertMaze/Materials/plants_01_df_t.mat
+  uploadId: 167957

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7f251ba69c91af840b8837da30503cbe
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/UniGif/UniGifDecoder.cs
+  uploadId: 761168

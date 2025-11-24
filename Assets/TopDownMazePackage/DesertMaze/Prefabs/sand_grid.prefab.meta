@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e391b6ad794eee046bb6eb8674735915
+timeCreated: 1481536528
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/DesertMaze/Prefabs/sand_grid.prefab
+  uploadId: 167957

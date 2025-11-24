@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7188d10b1336fa140bb43674887e6625
+timeCreated: 1481275234
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Materials/lm_lava_fog.mat
+  uploadId: 167957

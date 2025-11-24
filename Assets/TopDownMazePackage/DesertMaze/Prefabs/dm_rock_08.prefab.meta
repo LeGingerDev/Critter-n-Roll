@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6a5f930fcfefbd345bf3e3a421464e06
+timeCreated: 1481537043
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/DesertMaze/Prefabs/dm_rock_08.prefab
+  uploadId: 167957

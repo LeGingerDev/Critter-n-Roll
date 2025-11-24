@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0221bfccbadb8cb4b9c6611c40b76636, type: 3}
+  m_Name: AudioClipSO_MainMenu
+  m_EditorClassIdentifier: 
+  id: main-menu
+  constName: MAIN_MENU
+  audioClips:
+  - {fileID: 8300000, guid: 406ae78d64331ba4c9fe5df7d7383112, type: 3}
+  isLooping: 1
+  isRandomPitch: 0
+  pitchVariance: 0
+  volume: 0.093

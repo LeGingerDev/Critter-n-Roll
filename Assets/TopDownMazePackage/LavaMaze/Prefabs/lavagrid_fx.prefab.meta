@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 37eda833492f30346ae418a6c0fff0d7
+timeCreated: 1482779876
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Prefabs/lavagrid_fx.prefab
+  uploadId: 167957

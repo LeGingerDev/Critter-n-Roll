@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 81ecd5f806e380843bd4ba89545b2acf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273978
+  packageName: StreamLinked - API, Auth, EventSub and IRC for Twitch
+  packageVersion: V2.0.3
+  assetPath: Assets/StreamLinked/TwitchEventSub/Events/ChannelPointsCustomRewardRedemptionUpdate.cs
+  uploadId: 761168

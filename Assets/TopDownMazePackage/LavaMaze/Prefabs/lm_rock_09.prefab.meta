@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 432eb74a8c81fd342b4264a8dbebfbd3
+timeCreated: 1481537072
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85621
+  packageName: Maze Package - Top Down
+  packageVersion: 1.0
+  assetPath: Assets/TopDownMazePackage/LavaMaze/Prefabs/lm_rock_09.prefab
+  uploadId: 167957

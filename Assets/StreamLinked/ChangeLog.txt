@@ -1,0 +1,277 @@
+﻿V2.0.3
+- Update specification to 2025-05‑23 (No code changes)
+- IRC will yield break from connecting if no target can be found before creation of connectors, not found message is also now a error log
+- Add visual studio summary note for TwitchAPIDataContainer.data
+- Made non-generic methods for SubscribeToEvent inside EventSubClient public
+- Fix LightJson AsBoolean so that it TryParse to double after failing to TryParse to bool, so that it works with 0 and 1 bool values
+- Rewrite Tag extractor for IRC, now uses spans and more accuratly extracts all tags
+- Comment out extra GetUser calls in the API example scene, was originally commented out as examples of other ways but was uncommented during code rewrites
+- Fix IRC Commands Enabled option not showing in Inspector
+- TwitchAPIClient HttpListenerCancellationToken now cancels before starting a new webserver to ensure a single instance operates at a time
+- Added IsConnecting and IsConnectingOrConnected bools to IRC
+- Disabled fields in IRC when IsConnectingOrConnected as these wont change during a connection
+- Renamed IRC Enable IRC / Disable IRC to Connect / Disconnect
+
+V2.0.2
+- Update specification to 2025-05‑09
+
+V2.0.1
+- Fix IRC messages with multiple emotes not showing any emotes
+- Fix IRC messages where Text after last emote is cut off
+- IRC GetEmotesTMPText and SearchEmotes now return List instead of an Array
+- Fix Twitch API Client tokens list not updating on Clear PlayerPref tokens shortcut button
+- Fix MakeTwitchAPIRequest making a null comparison on TokenInstance OAuthToken, now uses HasToken instead (OAuthToken is not Unity 'threadsafe')
+- Updated Unity Asset Store presentation
+
+V2.0.0
+[Fresh install is recommended if migrating from V1]
+- Update specification to 2025-04‑17
+- Deleted Archive folder, Obsolete items are now deleted
+- Added AsJsonValue to OAuthTokens
+- Added ClientCredentialsGrantFlow to request flow type to the enum
+- Fixed setting of OAuthAquireDate and now outputs value to Out and AsJsonValue
+- Moved Scope related classes into its own namespace
+- Added TokenInstance class for multiple OAuth tokens
+- Refactored Twitch API Client to be a access point and credential manager, single credential to single token has been changed to single credential to multiple ScriptableObjects
+- Made Performance and optimisations to FlaggedEnum<T>
+- Added FlaggedEnum class (Non Generic) 
+- Added StreamLinked menu items to 'Tools'
+- Added Enum checker class to help curating enums for unique values
+- Fixed FlaggedEnum property drawer to work inside ScriptableObjects
+- Refactored MakeTwitchAPIRequest methods to handle new credential system
+- Added Scope checking to generic MakeTwitchAPIRequest methods (<T>)
+- MakeTwitchAPIRequest with a default cancel token will now use the provided API cancel token
+- Refactored Twitch IRC classes to now be serializable and to use JsonValue
+- Made TwitchAPIClient operational during Editor
+- Removed UsePlayerPrefsFirst
+- Removed sets for ClientID and Secret, now use method UpdateClientIDAndSecret
+- Updated Editor fields for ClientID and Secret, it is now delayed and in a foldout, unified to work with Twitch API Client now working during Editor
+- TwitchAPIClient now runs dispatch actions on LateUpdate instead of FixedUpdate
+- API interfaces IUserAccess and IAppAccess have been removed, IAuth now covers both
+- ClientCredentialsFlow is now integrated in selection options for OAuth
+- TwitchAPIDataContainer now loads the full request as JSON string into the new property RequestDataString
+- Added SSL option for IRC connection
+- Add StructToJsonValue to JsonWriter, method will attempt to take all properties and transform it into a JsonValue
+- Fixed EditorPaged paging order
+- Added IJsonRequest to API classes to distinguish calls requiring JSON (Does NOT implement method as inherited static is not available in NetStandard)
+- Added Endpoint Browser page to TwitchAPIClient
+- Improved performance and memory allocation of string ToReadable extension
+- Property tuple CONTENTTYPE in API classes is now named CONTENT_TYPE
+- Removed OAuthUserInfo from TwitchAPIClient
+- IRC AllMessages is now a Queue
+- Added static MessageCapacity to IRC with message removal from AllMessages once capacity is reached (default = 10000 messages)
+- Deleted TwitchTagData and moved its functionality inside TwitchMessage
+- Fix Atlas manager creating TextMeshPro Atlases when they spout the log about a version update (which doesnt do anything but clears the collections)
+- Reduced BUFFER_SIZE in IRC to 10 KB
+- Changed GetChannelBadges in TwitchBadgeManager to be coroutines as no data was expected to be returned from the method call
+- Added SingletonDispatcher<T>, inherits SingletonInstance<T> to provide main thread action execution, used on TwitchAPIClient, TwitchIRCClient and TwitchEventSubClient
+- TwitchBadgeManager reworked, now compatible with Shared Chat, PRIVMSG and USERNOTICE containers will notify TwitchBadgeManager of room ids to aquire
+- Increased Range value for NumWorkersToCreateOnAwake from 10 to 100
+- Added overloads to UniGif to support NativeArray<Byte>
+- TwitchIRCClient now adds messages to a queue that is processed in the main loop, ensuring Event execution always occures on the main thread
+- Add string casting to LightJson As* values in JsonValue, so values stored as strings will cast to numerical values
+- Add Serializable to LightJson
+- Add IsFloat, AsFloat, IsByte and AsByte checks and conversions to JsonValue.
+- RequestDataString in TwitchAPIDataContainer has been renamed to RawResponse
+- Removed ErrorBody from TwitchAPIDataContainer, this is covered by RawResponse
+- Unified methods for MakeTwitchAPIRequest into an internal method to handle primary response
+- JsonValue methods for MakeTwitchAPIRequest now return the compartmentalised response provided by Twitch that would usually go into a TwitchAPIDataContainer
+- MakeTwitchAPIRequest methods now provide response in layers, first as string (new method MakeTwitchAPIRequestRaw), second as JsonValue, third as TwitchAPIDataContainer<T>
+- Rebuilt client Inspectors
+- Removed Enable button from TwitchEventSubClient, please follow example script/scene to start the EventSub
+- Reformatted Visual Scripting node for TwitchAPIRequest to include credential changes for example
+- Added Search to EventSub events page
+- TwitchAPIDataContainer.data now returns an empty array when no response was found
+- Moved all EventSub internal Classes to the 'EventSub.Events.Objects' namespace, EventSub classes now share these objects due to identical naming
+- Added PersistBetweenScenes to SingletonInstance for if you dont want an instance alive anymore when changing scenes
+- Provided documentation updated
+- Performance and Memory allocation optimisation throughout
+- Updated long out of date readme texts
+
+V1.6.0
+- Update specficiation to 2025‑02‑27
+- Updated Assembly Definition References names to better reflect their location in relation to the Editor
+- Added start of custom Visual Scripting components implementation (Very early days, not recommended for use yet)
+	-- Included in seperate Assembly Reference (StreamLinked.VisualScripting)
+	-- 2 custom nodes added, TwitchAPIRequest (Built to use TwitchAPIClient.MakeTwitchAPIRequest()) and StringPair (as tuples dont work)
+- Fixed bug in loading the oauth tokens scopes
+- LoadUserAccessAuthContainer now compares token Expiry date, replace scopes is now add scopes, no longer removes non token scopes
+- Added ToReadable Extension to convert strings (particularly field/enum names) into a human readable format
+- Added TwitchAPIClassEnum and TwitchResourceEnum for type access to Twitch API classes (handy for dropdown selection)
+	-- ITwitchAPIDataObject classes now contain a property for this enum
+- Updated provided guides
+
+V1.5.0
+- Update specficiation to 2025‑02‑12
+- #IMPORTANT# FlaggedEnum
+	-- Added a new class FlaggedEnum<T> including unity property drawer to replace handling of Enums
+	-- Supports Serialization with Unity
+	-- Old Lists of Enums have been replace with this, previously saved settings WILL be cleared and will need re-adding, token scopes unaffected
+	-- AddToScopes ext functions have been replaced with simpler AddScope functions
+	-- New class is a checkbox and search system for enums, no more List of enums where you select each enum from a long dropdown
+- Removed Endpoint and Method parameters from Generic (<T>) API calls, the type provides these already so there is no need to including it
+- Moved MakeTwitchAPIRequest methods to partial file for TwitchAPIClient named 'TwitchAPIClient.TwitchAPIRequest.cs'
+- Added non static MakeTwitchAPIRequest methods to TwitchAPIClient, allowing the API client to host Coroutines calls and call straight from the instance.
+- Added synchronous MakeTwitchAPIRequest methods to TwitchAPIClient, allowing API calls without Tasks or Coroutines, good for testing and off main thread calls, bad for main thread.
+- Added INoResponse to help determin when a endpoint doesnt require response processing, this can quickly be accessed with ITwitchAPIDataObject.HasResponse<T>()
+- Added ISerializationCallbackReceiver to GetUserActiveExtensions to serialize and deserialize the dictionaries using Unity
+- Removed get auth buttons from API client inspector, these buttons have remained untested since V1.0 and served for development purposes, C# now handles that
+- Renamed 'Other' folder to 'Utility' to match namespace
+- 'StringExtensions' renamed to 'Extensions', originally just held the string ones but more handy ones for other classes appeared hence the rename
+- Changelog now exceeds 10000 characters on the Unity release notes and needs truncating (didnt expect that, good going me I guess?)
+
+V1.4.2
+- Update specficiation to 2025‑02‑06
+- Update Editor assembly name to 'StreamLinked.Editor' from 'StreamLinked - Editor'
+- Minor code optimisations and appearance changes
+
+V1.4.1
+- Update specficiation to 2024‑12‑05
+- Fixed missing changes relating to AutoMessageUpdateV2 and AutoMessageHoldV2
+- Updated Additional Provided Class Information pdf to now reference TwitchMessageAtlasProducer instead of TwitchMessageAtlasManager and LightJson updates
+
+V1.4.0
+- Update specficiation to 2024‑11‑25
+- Updated class names of EventSub event classes and enums to now say the full name (Channel) including:
+	-- CharityCampaignStart
+	-- CharityCampaignStop
+	-- CharityCampaignProgress
+	-- CharityDonation
+	-- GoalBegin
+	-- GoalEnd
+	-- GoalProgress
+	-- HypeTrainBegin
+	-- HypeTrainEnd
+	-- HypeTrainProgress
+	-- ShieldModeBegin
+	-- ShieldModeEnd
+	-- ShoutoutCreate
+	-- ShoutoutReceived
+- Change token loading in Editor API Token details page to take information from settings store.
+- Fix bug in TwitchAPIDataContainer not reading Token validation bodies from Twitch. (cause unknown)
+- Removed and seperated CurrentAuthState into 2 functions, GetCurrentAuthenticationType and SetAuthenticationType
+- Add functionality to change authentication type from dropdown in inspector
+- Removed GetNewAuthTokenOfType and replaced it with SetAuthenticationType
+
+V1.3.0
+- Update specification to 2024‑09‑16
+- TwitchBadge and TwitchEmote classes are moved to correct folder namespace of StreamLinked.ManagersAndBuilders.Containers
+- Add Archive folder for old code and assets, code is marked as obsolete
+- Add new Singleton TwitchMessageAtlasProducer
+	-- V2 of TwitchMessageAtlasManager
+	-- Builds TextMeshPro Atlas and Texture in code for individual requests compared to original adding and rebuilding onto a single large Atlas and Texture
+	-- TwitchMessageGameObjectProvider, TwitchMessageGameObject and TwitchMessageSingleDisplayer are provided and added to TwitchSceneFiles
+	-- Version 2 of the original scenes are provided, old scenes can still be found in the new Archive folder
+- Depreciate TwitchMessageAtlasManager and move to new archive folder. 
+	-- Fields, properties and methods using this in the code base are now marked as obsolete and will be removed in future patches
+	-- OnAtlasRebuildStarted and OnAtlasRebuildComplete are now EventHandlers (this was the last change I made before the full rework)
+- Changed IRC containers referencing ReadOnlyDictionary in constructors to now use IReadOnlyDictionary
+- IRC building Twitch message emote data will no longer create an instance of the emote and badge managers, now only use GetInstance
+- Unify TwitchMessage badge and emote extraction to static functions under ITagContainer
+- Extend Badge search field in inspector to search over more fields
+- Added Trim to setting IRC TwitchTarget.
+- Added Trim to Editor field that updates IRC TwitchTarget, also when field is empty the text changes to say clear target instead of switch target
+- Added a default button to change the Twitch API HTML response back to the default provided.
+- Minor performance tweeks throughout
+
+V1.2.0
+- Update specification 2024‑08‑01 (Twitch apparently added a scope and some small changes without noting it... pain)
+- Fix Array of building choices JSON for CreatePoll and CreatePrediction in BuildDataJson function
+- Fixed SendChatMessage class
+- Rewrite Initialise for User Extensions end points
+- Turned unraid in ChannelChatNotification to a bool... why just have it as an empty body idk but structs dont like it so its a bool for now
+- Add ToModelArray<T> to JsonArray to clean up the repeated loops added to Initialise
+- Remove async void functions in API Client, they are now just void
+- Have API client authentication events fire from the main thread
+- Revised API client AttemptLoadFromSettings()
+- Use reflection to activate EventSub events, we no longer need to remember to add the invoke to the list in FireEventDelegate()
+- Numbered enums manually to stop scope corruption on adding an enum
+- APIOAuthAvailable in Twitch API Client now waits for OAuthUserInfo to be populated
+- API UpdateAuthUserInfo is now public to manually update the credentials, the same function now nulls the GetUsers body before making the call to show it has up to date info
+- IRC made JoinedRoomUserData nullable
+- Add functions to handle when Reload Domain is turned off
+- Fix structs to work with Serializable #MAJOR CHANGE#
+	-- Reverted change to allow nullable JsonValues (As nullables cant be serialized in Unity it might as well be removed)
+	-- Properties now have appropriate property to make them work to Serialize [field: SerializeField]
+	-- Nullable values have been removed from bodies and models, values now output the minimum value (string unchanged)
+
+V1.1.3
+- Update specification 2024‑07‑11 (includes channel.moderate v2)
+
+V1.1.2
+- Update specification to 2024‑06‑19 (channel.moderate v2 ommited as release version will replace the current channel.moderate)
+- Fixed Client ID issue on refresh of Device Code Flow tokens...
+#IMPORTANT# https://github.com/twitchdev/issues/issues/943
+Although refresh of a Device Code Flow token is stated to not require a secret, thats a lie, you currently do...
+So for now a failed refresh will start the flow again, need to review and track this when Twitch fixes this, nothing I can do personally unfortunatly.
+- Small changes and improvements throughout code base.
+- Added ability to add additional JavaScript code to the Web server to execute after the required Javascript in the inspector
+
+V1.1.1
+- Update specification to 2024‑05‑22
+- Fix IDE0251 warning for Get properties not being readonly
+
+V1.1.0
+- Add GettingNewToken check in if at the end of get settings to stop yellow already getting oauth message
+- Disable instead of hide the button to activate the EventSub in the example scene
+- Renamed TwitchEventSubImplementation to TwitchEventSubStartupExample and button to 'Subscribe to Channel Polling events'
+- Move API check in EventSub to before creating the connection
+- Add param value to BeginConnectionSession for subscriptions to immediatly make on the EventSub
+- Removed OnAuthenticationUpdated event in API Client
+- Add Events tab to API Client with new events on the current authentication steps
+- Add message for manual retrieval of Device code token that its now waiting to receive it
+- Add Function to receive manual Device code via function ReceiveDeviceCodeGrantFlowManually(GetDeviceCodeGrantAuthorisation data)
+- Overhaul UnityEditor scipts to use new EditorPaged class, moving events into seperate 'page'
+- Revised documents and website for any changes needed
+
+V1.0.6
+- Added wait into BeginConnectionSession of EventSub so that the API client and aquire OAuth if required
+- Temp Fix null issue on AsJsonArray instances not creating empty object on null causing exception when accessing .Count
+- Added keepalive_timeout_seconds value for EventSub
+- Added GetSocketAddress to get the address combinding additional variables like keepalive_timeout_seconds
+
+V1.0.5
+- Fix bug in IRC callback accessing disposed Network Stream
+- Move ReconnectToTwitch() in IRC from Awake to OnEnable
+- Fix new text editor value from being a property to have a serializable field behind it
+- Change APIOAuthAvailable to use the existing CheckOAuthExistsAndInDate() function
+- Extend CheckOAuthExistsAndInDate() function to request a new token if settings allow
+- Add load from app settings button to Token page of API client inspector
+- Update IRC guide for Authentication section to say to include chat_read and/or chat_edit scopes for tokens to login
+- Add chat_read scope as default to API Client
+
+V1.0.4:
+- Update wording specification to 2024‑04‑22 (No code change required)
+- Added text editor to change the displayed message shown in web browsers when authenticating (found on display enum of API client)
+- Add Guide to get started with setting up an application on the Twitch Console website for getting your first Client ID
+- Add option to disable the local webserver for receiving OAuth tokens
+- Rename Redirect_URI to RedirectURI for better inspector presentation
+- Made InternalSettingsStore static
+- Added foldout to buttons at the bottom of API Client
+
+V1.0.3:
+- Update specification to 2024‑04‑12
+- Added Upgrade guide
+
+V1.0.2:
+- Update specification to 2024‑04‑05
+- Fix bug on websockets label on EventSub not showing state value
+- Added text and canvas to EventSub Example scene
+- Extended TwitchEventSubImplementation to output the returned data onto the new text canvas
+- Transform OnDestroy in Twitch EventSub Client to use reflection to clear all UnityEvents
+- Add missing UnityEvents for subscriptions, organised them aswell to match website
+- Transform Payload class to use Activator.CreateInstance to build IEvent objects
+
+V1.0.1:
+- Removed API Enabled button from TwitchAPIClient
+- Added null check to MakeTwitchAPIRequest when disposing the handlers
+- Added label for EventSub to show the websockets current state
+- Restrict Enable/Disable button on the EventSub for during Play mode
+- Promoted SessionTransport in EventSub from private to (get; private set;)
+- 'Prefabify' more objects for scenes
+- Added pdf getting started guides
+- Added extra scene to demonstrate basic API functionality
+- Added a little bit extra detail to the EventSub example scene (needs alot more work as an example though)
+
+V1.0.0:
+Initial Project Submission to Unity Asset Store
